@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		773FE3591E5FEC330064BC9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773FE3581E5FEC330064BC9E /* AppDelegate.swift */; };
+		773FE35E1E5FEC330064BC9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773FE35C1E5FEC330064BC9E /* Main.storyboard */; };
+		773FE3601E5FEC330064BC9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773FE35F1E5FEC330064BC9E /* Assets.xcassets */; };
+		773FE3631E5FEC330064BC9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773FE3611E5FEC330064BC9E /* LaunchScreen.storyboard */; };
+		773FE36E1E5FEC330064BC9E /* ODRefreshControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773FE36D1E5FEC330064BC9E /* ODRefreshControlTests.swift */; };
+		773FE37C1E5FF15F0064BC9E /* ODRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773FE37B1E5FF15F0064BC9E /* ODRefreshControl.swift */; };
+		773FE37E1E600EE40064BC9E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773FE37D1E600EE40064BC9E /* TableViewController.swift */; };
+		BE49D8729284819455D0D82C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BE49DB24515C3F4544BBA5B8 /* README.md */; };
+		BE49DFB9BC7B9D18C94D1F76 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BE49DC72DA3299AD1082DB63 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		773FE36A1E5FEC330064BC9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 773FE34D1E5FEC330064BC9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773FE3541E5FEC330064BC9E;
+			remoteInfo = ODRefreshControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		773FE3551E5FEC330064BC9E /* ODRefreshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ODRefreshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		773FE3581E5FEC330064BC9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		773FE35D1E5FEC330064BC9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		773FE35F1E5FEC330064BC9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		773FE3621E5FEC330064BC9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		773FE3641E5FEC330064BC9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773FE3691E5FEC330064BC9E /* ODRefreshControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODRefreshControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		773FE36D1E5FEC330064BC9E /* ODRefreshControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODRefreshControlTests.swift; sourceTree = "<group>"; };
+		773FE36F1E5FEC330064BC9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773FE37B1E5FF15F0064BC9E /* ODRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODRefreshControl.swift; sourceTree = "<group>"; };
+		773FE37D1E600EE40064BC9E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BE49DB24515C3F4544BBA5B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BE49DC72DA3299AD1082DB63 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		773FE3521E5FEC330064BC9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773FE3661E5FEC330064BC9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		773FE34C1E5FEC330064BC9E = {
+			isa = PBXGroup;
+			children = (
+				773FE3571E5FEC330064BC9E /* ODRefreshControl */,
+				773FE36C1E5FEC330064BC9E /* ODRefreshControlTests */,
+				773FE3561E5FEC330064BC9E /* Products */,
+				BE49DC72DA3299AD1082DB63 /* .gitignore */,
+				BE49DB24515C3F4544BBA5B8 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		773FE3561E5FEC330064BC9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				773FE3551E5FEC330064BC9E /* ODRefreshControl.app */,
+				773FE3691E5FEC330064BC9E /* ODRefreshControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		773FE3571E5FEC330064BC9E /* ODRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				773FE37A1E5FED360064BC9E /* Class */,
+				773FE3581E5FEC330064BC9E /* AppDelegate.swift */,
+				773FE37D1E600EE40064BC9E /* TableViewController.swift */,
+				773FE35C1E5FEC330064BC9E /* Main.storyboard */,
+				773FE35F1E5FEC330064BC9E /* Assets.xcassets */,
+				773FE3611E5FEC330064BC9E /* LaunchScreen.storyboard */,
+				773FE3641E5FEC330064BC9E /* Info.plist */,
+			);
+			path = ODRefreshControl;
+			sourceTree = "<group>";
+		};
+		773FE36C1E5FEC330064BC9E /* ODRefreshControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				773FE36D1E5FEC330064BC9E /* ODRefreshControlTests.swift */,
+				773FE36F1E5FEC330064BC9E /* Info.plist */,
+			);
+			path = ODRefreshControlTests;
+			sourceTree = "<group>";
+		};
+		773FE37A1E5FED360064BC9E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				773FE37B1E5FF15F0064BC9E /* ODRefreshControl.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		773FE3541E5FEC330064BC9E /* ODRefreshControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773FE3721E5FEC330064BC9E /* Build configuration list for PBXNativeTarget "ODRefreshControl" */;
+			buildPhases = (
+				773FE3511E5FEC330064BC9E /* Sources */,
+				773FE3521E5FEC330064BC9E /* Frameworks */,
+				773FE3531E5FEC330064BC9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ODRefreshControl;
+			productName = ODRefreshControl;
+			productReference = 773FE3551E5FEC330064BC9E /* ODRefreshControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		773FE3681E5FEC330064BC9E /* ODRefreshControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773FE3751E5FEC330064BC9E /* Build configuration list for PBXNativeTarget "ODRefreshControlTests" */;
+			buildPhases = (
+				773FE3651E5FEC330064BC9E /* Sources */,
+				773FE3661E5FEC330064BC9E /* Frameworks */,
+				773FE3671E5FEC330064BC9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773FE36B1E5FEC330064BC9E /* PBXTargetDependency */,
+			);
+			name = ODRefreshControlTests;
+			productName = ODRefreshControlTests;
+			productReference = 773FE3691E5FEC330064BC9E /* ODRefreshControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		773FE34D1E5FEC330064BC9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = doom;
+				TargetAttributes = {
+					773FE3541E5FEC330064BC9E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = RG36R5GVH3;
+						ProvisioningStyle = Automatic;
+					};
+					773FE3681E5FEC330064BC9E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = RG36R5GVH3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 773FE3541E5FEC330064BC9E;
+					};
+				};
+			};
+			buildConfigurationList = 773FE3501E5FEC330064BC9E /* Build configuration list for PBXProject "ODRefreshControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 773FE34C1E5FEC330064BC9E;
+			productRefGroup = 773FE3561E5FEC330064BC9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				773FE3541E5FEC330064BC9E /* ODRefreshControl */,
+				773FE3681E5FEC330064BC9E /* ODRefreshControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		773FE3531E5FEC330064BC9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773FE3631E5FEC330064BC9E /* LaunchScreen.storyboard in Resources */,
+				773FE3601E5FEC330064BC9E /* Assets.xcassets in Resources */,
+				773FE35E1E5FEC330064BC9E /* Main.storyboard in Resources */,
+				BE49DFB9BC7B9D18C94D1F76 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773FE3671E5FEC330064BC9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		773FE3511E5FEC330064BC9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773FE37C1E5FF15F0064BC9E /* ODRefreshControl.swift in Sources */,
+				773FE37E1E600EE40064BC9E /* TableViewController.swift in Sources */,
+				773FE3591E5FEC330064BC9E /* AppDelegate.swift in Sources */,
+				BE49D8729284819455D0D82C /* README.md in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773FE3651E5FEC330064BC9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773FE36E1E5FEC330064BC9E /* ODRefreshControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		773FE36B1E5FEC330064BC9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 773FE3541E5FEC330064BC9E /* ODRefreshControl */;
+			targetProxy = 773FE36A1E5FEC330064BC9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		773FE35C1E5FEC330064BC9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773FE35D1E5FEC330064BC9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		773FE3611E5FEC330064BC9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773FE3621E5FEC330064BC9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		773FE3701E5FEC330064BC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		773FE3711E5FEC330064BC9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		773FE3731E5FEC330064BC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RG36R5GVH3;
+				INFOPLIST_FILE = ODRefreshControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doom.ODRefreshControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		773FE3741E5FEC330064BC9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RG36R5GVH3;
+				INFOPLIST_FILE = ODRefreshControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doom.ODRefreshControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		773FE3761E5FEC330064BC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RG36R5GVH3;
+				INFOPLIST_FILE = ODRefreshControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doom.ODRefreshControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ODRefreshControl.app/ODRefreshControl";
+			};
+			name = Debug;
+		};
+		773FE3771E5FEC330064BC9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RG36R5GVH3;
+				INFOPLIST_FILE = ODRefreshControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doom.ODRefreshControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ODRefreshControl.app/ODRefreshControl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		773FE3501E5FEC330064BC9E /* Build configuration list for PBXProject "ODRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773FE3701E5FEC330064BC9E /* Debug */,
+				773FE3711E5FEC330064BC9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773FE3721E5FEC330064BC9E /* Build configuration list for PBXNativeTarget "ODRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773FE3731E5FEC330064BC9E /* Debug */,
+				773FE3741E5FEC330064BC9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		773FE3751E5FEC330064BC9E /* Build configuration list for PBXNativeTarget "ODRefreshControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773FE3761E5FEC330064BC9E /* Debug */,
+				773FE3771E5FEC330064BC9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 773FE34D1E5FEC330064BC9E /* Project object */;
+}
